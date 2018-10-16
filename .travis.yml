@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.6"
+# command to install dependencies
+install:
+  - pip install -r requirements/dev.txt
+# command to run tests
+script:
+  - py.test --cov=basicLambda tests
+after_success:
+  - codecov --token=$REPO_TOKEN
