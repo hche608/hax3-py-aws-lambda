@@ -3,3 +3,4 @@ coverage==4.5.1
 pytest-cov==2.6.0
 mockito==1.1.1
 codecov==2.0.15
+requests==2.19.1

@@ -6,8 +6,6 @@ install:
   - pip install -r requirements/dev.txt
 # command to run tests
 script:
-  - git config user.name "Hao Chen"
-  - git config user.email "hao.ch86@gmail.com"
   - py.test --cov=basicLambda tests
 after_success:
   - codecov --token=$REPO_TOKEN

@@ -18,5 +18,5 @@ setup(
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 1 - Alpha",
-    ],
+    ], install_requires=['requests', 'mockito']
 )
