@@ -1,6 +1,6 @@
 -r common.txt
 pytest==5.4.1
-coverage==5.1
+coverage==5.5
 pytest-cov==2.12.1
 mockito==1.2.2
-codecov==2.0.22
+codecov==2.1.11
